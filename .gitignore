@@ -1,0 +1,34 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android/IntelliJ/VS Code
+.idea/
+*.iml
+.vscode/
+
+# iOS/macOS 생성물
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+macos/Flutter/ephemeral/
+
+# Windows/Linux 생성물
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# 테스트/커버리지
+coverage/
+
+# 로컬 환경 파일
+.env
+.env.*
+*.log
+
+# 프로젝트 로컬 도구
+.tooling/

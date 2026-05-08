@@ -1,0 +1,48 @@
+# CPDTestApp Codex 프로젝트 기본 설정
+
+[project]
+name = "CPDTestApp"
+description = "Codex 사용법 학습을 위한 Flutter 게시판 앱 프로젝트"
+language = "ko"
+
+[app]
+framework = "Flutter"
+database = "SQLite"
+server_required = false
+
+[documentation]
+markdown_language = "ko"
+command_log = "docs/COMMAND_LOG.md"
+
+[workflow]
+record_user_commands = true
+record_created_files = true
+prefer_small_changes = true
+
+[agents.project_manager]
+path = ".codex/agents/project_manager.md"
+role = "Flutter SQLite 게시판 앱 프로젝트 관리"
+language = "ko"
+model = "gpt-5.5"
+reasoning_effort = "xhigh"
+
+[agents.frontend]
+path = ".codex/agents/frontend.md"
+role = "Flutter 게시판 앱 화면 및 UI 개발"
+language = "ko"
+model = "gpt-5.5"
+reasoning_effort = "medium"
+
+[agents.backend]
+path = ".codex/agents/backend.md"
+role = "Flutter 앱 내부 SQLite 데이터 계층 개발"
+language = "ko"
+model = "gpt-5.5"
+reasoning_effort = "medium"
+
+[agents.tester]
+path = ".codex/agents/tester.md"
+role = "Flutter 게시판 앱 코드 테스트 및 검증"
+language = "ko"
+model = "gpt-5.5"
+reasoning_effort = "medium"
