@@ -46,3 +46,6 @@ role = "Flutter 게시판 앱 코드 테스트 및 검증"
 language = "ko"
 model = "gpt-5.5"
 reasoning_effort = "medium"
+
+[mcp_servers.figma]
+url = "https://mcp.figma.com/mcp"
